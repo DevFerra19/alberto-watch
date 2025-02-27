@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 0.8rem 1.5rem;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-logo .logo {
+  display: flex;
+    align-items: center;
+    gap: 10px;
+  max-width: 100px;
+  height: auto;
+}
+
+/* Desktop Navigation */
+.navbar-menu {
+  display: flex;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #edc967;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.menu-list a:hover {
+  color: #ffffff;
+}
+
+.menu-list a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffd700;
+  transition: width 0.3s ease;
+}
+
+.menu-list a:hover::after {
+  width: 100%;
+}
+
+.visit-count{
+  font-size: 10px;
+}
+
+/* Hamburger Button (Hidden by Default) */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #ffd700;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 28px;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-list li {
+    margin: 10px 0;
+  }
+
+  .menu-list a {
+    font-size: 1.5rem;
+  }
+}

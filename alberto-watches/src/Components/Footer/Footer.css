@@ -1,0 +1,178 @@
+.alberto-co-footer {
+  background-color: black;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  color: #ffd700;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.about-shop,
+.policies,
+.newsletter {
+  flex: 1;
+  min-width: 280px;
+  margin-bottom: 20px;
+}
+
+.about-shop h3,
+.policies h3,
+.newsletter h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.about-shop p,
+.policies p,
+.newsletter p {
+  font-size: 17px;
+}
+
+.policies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.policies li {
+  margin-bottom: 8px;
+}
+
+.policies a {
+  text-decoration: none;
+  color: #ffd700;
+}
+
+.policies a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin: 15px 7rem;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: gold;
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+}
+
+.social-icon:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.newsletter p {
+  margin-bottom: 15px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.newsletter-form button {
+  background-color: gold;
+  color: black;
+  padding: 10px 15px;
+  border: 1px solid gold;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter-form button:hover {
+  background-color: darkgoldenrod;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-shop,
+  .policies,
+  .newsletter {
+    min-width: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form button {
+    border-radius: 4px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-shop h3,
+  .policies h3,
+  .newsletter h3 {
+    font-size: 1.3rem;
+  }
+
+  .about-shop p,
+  .policies p,
+  .newsletter p {
+    font-size: 15px;
+  }
+
+  .social-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+}
+
+.time-scroll{
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee{
+  0%{
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(-100%);
+  }
+}
+
+.time-scroll:hover{
+animation-play-state: paused;
+}

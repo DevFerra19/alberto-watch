@@ -1,0 +1,85 @@
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+  width: 100%; /* Ensure it takes full width on smaller screens */
+}
+
+.carousel-container h2 {
+  padding: 2rem 0px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.carousel-image {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  width: 100%; /* Make image responsive */
+  max-width: 500px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel {
+    max-width: 100%; /* Allow carousel to take full width */
+  }
+
+  .carousel-container h2 {
+    font-size: 1.5rem; /* Decrease heading size */
+  }
+
+  .prev,
+  .next {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container h2 {
+    font-size: 1.3rem; /* Further reduce heading size */
+  }
+
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 6px;
+  }
+}

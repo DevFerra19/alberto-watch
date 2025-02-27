@@ -1,0 +1,263 @@
+{
+  "products": {
+    "luxurious": [
+      {
+        "name": "Sea-Dweller",
+        "img": [
+          "https://i.postimg.cc/SQ7mW0xJ/Screenshot-2025-02-25-at-10-15-33.png",
+          "https://i.postimg.cc/KcNy1n0T/Screenshot-2025-02-25-at-10-13-41.png",
+          "https://i.postimg.cc/3wMqSRL7/Screenshot-2025-02-25-at-10-14-25.png",
+          "https://i.postimg.cc/NFPJ1fy3/Screenshot-2025-02-25-at-10-31-13.png",
+          "https://i.postimg.cc/jjKXnJgW/Screenshot-2025-02-25-at-10-12-20.png"
+        ],
+        "brand": "Rolex",
+        "description": "Oyster, 43 mm, Oystersteel and yellow gold",
+        "rating": 4.9,
+        "price": 109.5
+      },
+
+      {
+        "name": "Explorer",
+        "img": [
+          "https://i.postimg.cc/x1VGBzSs/Screenshot-2025-02-25-at-10-36-26.png",
+          "https://i.postimg.cc/2jPX83DW/Screenshot-2025-02-25-at-10-36-43.png",
+          "https://i.postimg.cc/dV9WBBTR/Screenshot-2025-02-25-at-10-38-19.png",
+          "https://i.postimg.cc/7LYKQ2gF/Screenshot-2025-02-25-at-10-36-17.png"
+        ],
+        "brand": "Rolex",
+        "description": "The Explorer is a reliable, robust and indispensable companion for explorers.",
+        "rating": 4.2,
+        "price": 95.5
+      },
+
+      {
+        "name": "GMT-Master II",
+        "img": [
+          "https://i.postimg.cc/KYz55ybF/Screenshot-2025-02-25-at-10-47-54.png",
+          "https://i.postimg.cc/J0WJvffs/Screenshot-2025-02-25-at-10-48-14.png",
+          "https://i.postimg.cc/bNpkTj0M/Screenshot-2025-02-25-at-10-48-46.png",
+          "https://i.postimg.cc/0NMwQ5x6/Screenshot-2025-02-25-at-10-46-30.png"
+        ],
+        "brand": "Rolex",
+        "description": "The GMT-Master II is the ultimate cosmopolitan watch. With a dedicated 24-hour hand and a 24-hour graduated two-colour rotatable bezel",
+        "rating": 4.6,
+        "price": 117.3
+      },
+
+      {
+        "name": "RM 25-01",
+        "img": [
+          "https://i.postimg.cc/vHTHMqGT/Screenshot-2025-02-25-at-10-58-53.png",
+          "https://i.postimg.cc/xdD0v9MN/Screenshot-2025-02-25-at-10-57-04.png",
+          "https://i.postimg.cc/KYPmQCDq/Screenshot-2025-02-25-at-10-57-48.png",
+          "https://i.postimg.cc/NMbBvTVR/Screenshot-2025-02-25-at-10-58-24.png"
+        ],
+        "brand": "Richard-Mille",
+        "description": "",
+        "rating": 4.9,
+        "price": 205.5
+      },
+
+      {
+        "name": "Calibre RM 47",
+        "img": [
+          "https://i.postimg.cc/L6JRGJVZ/Screenshot-2025-02-25-at-12-40-11.png",
+          "https://i.postimg.cc/rpNL5xq7/Screenshot-2025-02-25-at-12-38-55.png",
+          "https://i.postimg.cc/Tw2v01w1/Screenshot-2025-02-25-at-12-37-51.png",
+          "https://i.postimg.cc/xCsD4QJR/Screenshot-2025-02-25-at-12-37-07.png"
+        ],
+        "brand": "Richard-Mille",
+        "description": "Manual winding tourbillon movement with hours and minutes.",
+        "rating": 4.75,
+        "price": 99.5
+      },
+
+      {
+        "name": "Royal Oak Grande Complication",
+        "img": [
+          "https://i.postimg.cc/Kv3SJdZP/Screenshot-2025-02-25-at-13-04-09.png",
+          "https://i.postimg.cc/KYF6cjtf/Screenshot-2025-02-25-at-13-04-46.png",
+          "https://i.postimg.cc/cL7zzWPn/Screenshot-2025-02-25-at-13-05-10.png",
+          "https://i.postimg.cc/q7kFVYdZ/Screenshot-2025-02-25-at-13-10-11.png"
+        ],
+        "brand": "Audemars Piguet",
+        "description": "Sapphire dial, white external zone of counters, white gold Royal Oak hands with luminescent coating.",
+        "rating": 4.3,
+        "price": 175.5
+      }
+    ],
+
+    "smart": [
+      {
+        "name": "Apple Watch SE",
+        "img": [
+          "https://i.postimg.cc/Wb0jsQQ2/Screenshot-2025-02-25-at-13-29-02.png",
+          "https://i.postimg.cc/vB1Fkjrw/Screenshot-2025-02-25-at-13-28-41.png",
+          "https://i.postimg.cc/MTh2SD5M/Screenshot-2025-02-25-at-13-27-31.png",
+          "https://i.postimg.cc/2Szpr3Qw/Screenshot-2025-02-25-at-13-26-47.png"
+        ],
+        "brand": "Apple",
+        "description": "Easy ways to stay connected. Motivating fitness metrics. Innovative health and safety features.",
+        "rating": 4.2,
+        "price": 249.5
+      },
+
+      {
+        "name": "Apple Watch Series 10",
+        "img": [
+          "https://i.postimg.cc/0NQLK3HK/Screenshot-2025-02-25-at-13-39-02.png",
+          "https://i.postimg.cc/XJ51w0Kq/Screenshot-2025-02-25-at-13-38-45.png",
+          "https://i.postimg.cc/nVY0Z20y/Screenshot-2025-02-25-at-13-39-23.png",
+          "https://i.postimg.cc/bJf9fSbY/Screenshot-2025-02-25-at-13-55-41.png"
+        ],
+        "brand": "Apple",
+        "description": "Fastest-charging Apple Watch ever",
+        "rating": 4.7,
+        "price": 399.25
+      },
+
+      {
+        "name": "Apple Watch Ultra 2",
+        "img": [
+          "https://i.postimg.cc/XYZfZkk7/Screenshot-2025-02-25-at-13-58-52.png",
+          "https://i.postimg.cc/SQDCDvZx/Screenshot-2025-02-25-at-13-59-10.png",
+          "https://i.postimg.cc/Hsn5K9K4/Screenshot-2025-02-25-at-13-57-12.png",
+          "https://i.postimg.cc/XJxG1rkz/Screenshot-2025-02-25-at-13-57-37.png"
+        ],
+        "brand": "Apple",
+        "description": "Apple Watch Ultra 2 is the ultimate sports and adventure watch. It has all the connectivity, health, and safety features for the everyday. And it takes training further with the most accurate GPS in a sports watch.",
+        "rating": 4.9,
+        "price": 276.62
+      },
+
+      {
+        "name": "Galaxy Watch 7",
+        "img": [
+          "https://i.postimg.cc/NMGLXgv7/Screenshot-2025-02-25-at-14-09-11.png",
+          "https://i.postimg.cc/FRnFJ3ZN/Screenshot-2025-02-25-at-14-08-34.png",
+          "https://i.postimg.cc/L5cHxSwW/Screenshot-2025-02-25-at-14-07-50.png",
+          "https://i.postimg.cc/kXSMBVtP/Screenshot-2025-02-25-at-14-15-28.png",
+          "https://i.postimg.cc/7LKwp0j0/Screenshot-2025-02-25-at-14-10-31.png"
+        ],
+        "brand": "Samsung",
+        "description": "Next-level processing power",
+        "rating": 4.8,
+        "price": 329.99
+      },
+
+      {
+        "name": "Galaxy Fit3",
+        "img": [
+          "https://i.postimg.cc/DZmnFmKD/Screenshot-2025-02-25-at-14-21-53.png",
+          "https://i.postimg.cc/SQ2YfxzD/Screenshot-2025-02-25-at-14-20-34.png",
+          "https://i.postimg.cc/J7fD6CNm/Screenshot-2025-02-25-at-14-20-44.png",
+          "https://i.postimg.cc/jSKWT63F/Screenshot-2025-02-25-at-14-22-22.png"
+        ],
+        "brand": "Samsung",
+        "description": "Fitness tracking made simple",
+        "rating": 4.9,
+        "price": 252.5
+      },
+
+      {
+        "name": "Nova R 1.39 IP68",
+        "img": [
+          "https://i.postimg.cc/Nj4KjyWf/Screenshot-2025-02-25-at-14-33-01.png",
+          "https://i.postimg.cc/hjHj5V7M/Screenshot-2025-02-25-at-14-28-57.png",
+          "https://i.postimg.cc/XqSj83Tz/Screenshot-2025-02-25-at-14-39-30.png",
+          "https://i.postimg.cc/Z5KTjwM4/Screenshot-2025-02-25-at-14-36-51.png"
+        ],
+        "brand": "Oraimo",
+        "description": "Enjoy the convenience of making calls directly from your wrist, without the hassle of picking up your phone.",
+        "rating": 4.7,
+        "price": 38.5
+      }
+    ],
+
+    "vintage": [
+      {
+        "name": "Rolex Oyster Perpetual Reference 1002",
+        "img": [
+          "https://i.postimg.cc/vB9MDkcL/Screenshot-2025-02-25-at-14-54-19.png",
+          "https://i.postimg.cc/QC3D7m7L/Screenshot-2025-02-25-at-14-52-01.png",
+          "https://i.postimg.cc/GtxCxDP4/Screenshot-2025-02-25-at-14-54-46.png",
+          "https://i.postimg.cc/jqHtTVVR/Screenshot-2025-02-25-at-14-55-50.png"
+        ],
+        "brand": "Rolex",
+        "description": " The Oyster Perpetual reference 1002 might be the quintessential entry-level Rolex watch. The reference 1002 packs a major punch at 34mm.",
+        "rating": 3.8,
+        "price": 100.5
+      },
+
+      {
+        "name": "Breitling Navitimers",
+        "img": [
+          "https://i.postimg.cc/dtnF78tX/Screenshot-2025-02-25-at-15-06-12.png",
+          "https://i.postimg.cc/wvKYK20t/Screenshot-2025-02-25-at-15-06-30.png",
+          "https://i.postimg.cc/DfPkDqsZ/Screenshot-2025-02-25-at-15-06-51.png",
+          "https://i.postimg.cc/3Jr5HdCZ/Screenshot-2025-02-25-at-15-07-03.png"
+        ],
+        "brand": "Breitling",
+        "description": "The 806 is the classic reference with some cool references entering the picture in the 1960s and 1970s ",
+        "rating": 3.9,
+        "price": 85.99
+      },
+
+      {
+        "name": "Longines",
+        "img": [
+          "https://i.postimg.cc/s270Wr4X/Screenshot-2025-02-25-at-15-16-55.png",
+          "https://i.postimg.cc/tJCr8VQZ/Screenshot-2025-02-25-at-15-18-26.png",
+          "https://i.postimg.cc/SRTZ4NkZ/Screenshot-2025-02-25-at-15-18-56.png",
+          "https://i.postimg.cc/ht7CFBwr/Screenshot-2025-02-25-at-15-19-51.png"
+        ],
+        "brand": "Longines",
+        "description": "Many vintage Longines from the 1950s-1960s have great dimensions and are timeless watches. These include iconic models such as the Longines Conquest, as well as some deep-cut references the vintage Longines",
+        "rating": 4.2,
+        "price": 65.5
+      },
+
+      {
+        "name": "Time-Only OMEGA",
+        "img": [
+          "https://i.postimg.cc/T14cS7JF/Screenshot-2025-02-25-at-15-28-45.png",
+          "https://i.postimg.cc/BQRgBz61/Screenshot-2025-02-25-at-15-29-15.png",
+          "https://i.postimg.cc/vmttMHvW/Screenshot-2025-02-25-at-15-29-27.png",
+          "https://i.postimg.cc/SRJ6WLbr/Screenshot-2025-02-25-at-15-29-53.png"
+        ],
+        "brand": "OMEGA",
+        "description": "OMEGA has a wide-ranging catalog, and are a historically important manufacturer. Despite everyone in the vintage scene knowing how great these watches are, they have not become too pricey for the collector who enjoys a decent deal.",
+        "rating": 4.0,
+        "price": 128.5
+      },
+
+      {
+        "name": "Air-King",
+        "img": [
+          "https://i.postimg.cc/DwDDn20J/Screenshot-2025-02-25-at-15-36-07.png",
+          "https://i.postimg.cc/Jnt9jPng/Screenshot-2025-02-25-at-15-36-55.png",
+          "https://i.postimg.cc/sf5RmHKd/Screenshot-2025-02-25-at-15-37-20.png",
+          "https://i.postimg.cc/qB1W1fnF/Screenshot-2025-02-25-at-15-37-43.png"
+        ],
+        "brand": "Rolex",
+        "description": "The Air-King reference 14000 is an interesting watch in that it was the final Oyster reference Rolex produced which was non-chronometer certified. ",
+        "rating": 4.2,
+        "price": 100.5
+      },
+
+      {
+        "name": "Sea Wolf",
+        "img": [
+          "https://i.postimg.cc/kGjphSpZ/Screenshot-2025-02-25-at-15-42-14.png",
+          "https://i.postimg.cc/xCjrx9dX/Screenshot-2025-02-25-at-15-42-35.png",
+          "https://i.postimg.cc/RZcV2Vvd/Screenshot-2025-02-25-at-15-42-54.png",
+          "https://i.postimg.cc/HL8jWDDv/Screenshot-2025-02-25-at-15-43-12.png"
+        ],
+        "brand": "Zodiac",
+        "description": "The Zodiac Sea Wolf is a very special watch with its own role in the aquatic/submersible watch history",
+        "rating": 3.6,
+        "price": 83.58
+      }
+    ]
+  }
+}
